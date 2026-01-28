@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Catch the Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🎯 Catch the Box</h1>
+    <p>Punkte: <span id="score">0</span></p>
+    <p>Zeit: <span id="time">30</span> Sekunden</p>
+
+    <div id="gameArea">
+        <div id="box"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
